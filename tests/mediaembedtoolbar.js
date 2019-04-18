@@ -165,7 +165,7 @@ describe( 'MediaEmbedToolbar', () => {
 	} );
 } );
 
-describe( 'MediaEmbedToolbar - integration with BalloonEditor', () => {
+describe.skip( 'MediaEmbedToolbar - integration with BalloonEditor', () => {
 	let clock, editor, balloonToolbar, element, widgetToolbarRepository, balloon, toolbar, model;
 
 	testUtils.createSinonSandbox();
