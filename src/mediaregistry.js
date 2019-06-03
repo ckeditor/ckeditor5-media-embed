@@ -281,7 +281,7 @@ class Media {
 		icon.content = mediaPlaceholderIcon;
 		icon.viewBox = mediaPlaceholderIconViewBox;
 
-		const placeholder = new Template( {
+		const pTempalte = new Template( {
 			tag: 'div',
 			attributes: {
 				class: 'ck ck-reset_all ck-media__placeholder'
@@ -313,9 +313,17 @@ class Media {
 					]
 				}
 			]
-		} ).render();
+		} );
+		const placeholder = pTempalte.render();
+
+		this._template = pTempalte;
 
 		return placeholder.outerHTML;
+	}
+
+	destroy() {
+		super.destroy();
+		this._template.destroy();
 	}
 
 	/**
