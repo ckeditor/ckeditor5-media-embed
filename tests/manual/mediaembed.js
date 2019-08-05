@@ -19,7 +19,8 @@ ClassicEditor
 		mediaEmbed: {
 			previewsInData: true,
 			toolbar: [ 'blockQuote' ]
-		}
+		},
+		placeholder: 'Insert media URL'
 	} )
 	.then( editor => {
 		window.editor = editor;
