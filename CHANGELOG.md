@@ -1,9 +1,17 @@
 Changelog
 =========
 
-## [11.1.4](https://github.com/ckeditor/ckeditor5-media-embed/compare/v11.1.3...v11.1.4) (2019-08-26)
+## [11.1.5](#) (2019-09-11)
+
+### Bug changes
+* Fixed bug for Vidyard regex
+
+## [11.1.4](#) (2019-09-11)
 
 ### Other changes
+
+* Added support for Vidyard embeds.
+* Limited support to only Vidyard.
 
 * The issue tracker for this package was moved to https://github.com/ckeditor/ckeditor5/issues. See [ckeditor/ckeditor5#1988](https://github.com/ckeditor/ckeditor5/issues/1988). ([c139f62](https://github.com/ckeditor/ckeditor5-media-embed/commit/c139f62))
 * The media widget toolbar should have a proper `aria-label` attribute (see [ckeditor/ckeditor5#1404](https://github.com/ckeditor/ckeditor5/issues/1404)). ([7a95064](https://github.com/ckeditor/ckeditor5-media-embed/commit/7a95064))
