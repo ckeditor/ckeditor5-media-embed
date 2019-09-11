@@ -1,5 +1,5 @@
 {
-  "name": "@soldes/soldes-media-embed",
+  "name": "@soldes/ckeditor5-media-embed",
   "version": "11.1.4",
   "description": "Media Embed feature for CKEditor 5 (SolDes custom).",
   "keywords": [

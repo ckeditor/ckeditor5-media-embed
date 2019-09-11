@@ -39,7 +39,7 @@ export default class MediaEmbedEditing extends Plugin {
 			providers: [
 				{
 					name: 'vidyard',
-					url: /^salesforce\.vidyard\.com\/watch\/(\d+)/,
+					url: /^salesforce\.vidyard\.com\/watch\/([\w-]+)/,
 					html: match => {
 						const id = match[1];
 
