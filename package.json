@@ -1,7 +1,7 @@
 {
-  "name": "@ckeditor/ckeditor5-media-embed",
+  "name": "@soldes/soldes-media-embed",
   "version": "11.1.4",
-  "description": "Media Embed feature for CKEditor 5.",
+  "description": "Media Embed feature for CKEditor 5 (SolDes custom).",
   "keywords": [
     "ckeditor",
     "ckeditor5",
@@ -36,13 +36,13 @@
     "node": ">=8.0.0",
     "npm": ">=5.7.1"
   },
-  "author": "CKSource (http://cksource.com/)",
+  "author": "SolDes",
   "license": "GPL-2.0-or-later",
-  "homepage": "https://ckeditor.com/ckeditor-5",
-  "bugs": "https://github.com/ckeditor/ckeditor5/issues",
+  "homepage": "",
+  "bugs": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5-media-embed.git"
+    "url": "https://github.com/SolDes/ckeditor5-media-embed"
   },
   "files": [
     "lang",
