@@ -12,13 +12,13 @@
 #
 msgid ""
 msgstr ""
-"Language: \n"
-"Language-Team: \n"
-"Plural-Forms: \n"
+"Language-Team: English (United Kingdom) (https://www.transifex.com/ckeditor/teams/11143/en_GB/)\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgctxt "Label for the media widget."
 msgid "media widget"
-msgstr "media widget"
+msgstr "Media widget"
 
 msgctxt "Label for the URL input in the Media Embed URL editing balloon."
 msgid "Media URL"
@@ -46,4 +46,4 @@ msgstr "Insert media"
 
 msgctxt "The label used by assistive technologies describing an image toolbar attached to an image widget."
 msgid "Media toolbar"
-msgstr "Media toolbar"
+msgstr ""

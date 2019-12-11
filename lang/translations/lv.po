@@ -12,38 +12,38 @@
 #
 msgid ""
 msgstr ""
-"Language: \n"
-"Language-Team: \n"
-"Plural-Forms: \n"
+"Language-Team: Latvian (https://www.transifex.com/ckeditor/teams/11143/lv/)\n"
+"Language: lv\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
 msgctxt "Label for the media widget."
 msgid "media widget"
-msgstr "media widget"
+msgstr "medija sīkrīks"
 
 msgctxt "Label for the URL input in the Media Embed URL editing balloon."
 msgid "Media URL"
-msgstr "Media URL"
+msgstr "Medija URL"
 
 msgctxt "The help text displayed under the media URL input helping users to discover the interface."
 msgid "Paste the media URL in the input."
-msgstr "Paste the media URL in the input."
+msgstr "Ielīmējiet medija URL teksta laukā."
 
 msgctxt "The tip displayed next to the media URL input informing about an easier way of embedding."
 msgid "Tip: Paste the URL into the content to embed faster."
-msgstr "Tip: Paste the URL into the content to embed faster."
+msgstr "Padoms: Ielīmējiet adresi saturā, lai iegultu"
 
 msgctxt "An error message that informs about an empty value in the URL input."
 msgid "The URL must not be empty."
-msgstr "The URL must not be empty."
+msgstr "URL ir jābūt ievadītam."
 
 msgctxt "An error message that informs about unsupported media URL."
 msgid "This media URL is not supported."
-msgstr "This media URL is not supported."
+msgstr "Šis medija URL netiek atbalstīts."
 
 msgctxt "Toolbar button tooltip for the Media Embed feature."
 msgid "Insert media"
-msgstr "Insert media"
+msgstr "Ievietot mediju"
 
 msgctxt "The label used by assistive technologies describing an image toolbar attached to an image widget."
 msgid "Media toolbar"
-msgstr "Media toolbar"
+msgstr "Mediju rīkjosla"
