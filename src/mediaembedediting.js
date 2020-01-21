@@ -139,6 +139,23 @@ export default class MediaEmbedEditing extends Plugin {
 					url: /^flickr\.com/
 				},
 				{
+					name: 'facebook-video',
+					url: [
+						/(https:\/\/www\.facebook\.com\/([\S]*)\/videos\/([0-9]*))/gm,
+						/(https:\/\/www\.facebook\.com\/watch\/\?v\=([0-9]*))/gm
+					],
+					html: match => {
+						return (
+							'<div style="position: relative; padding-bottom: 100%; height: 0; ">' +
+								`<iframe src="https://www.facebook.com/plugins/video.php?show_text=false&href=`+ encodeURI(match[0]) +`" ` +
+									'style="position: absolute; width: 100%; height: 100%; top: 0; left: 0;" ' +
+									'frameborder="0" width="480" height="270" allowfullscreen allow="autoplay">' +
+								'</iframe>' +
+							'</div>'
+						);
+					}
+				},
+				{
 					name: 'facebook',
 					url: /^facebook\.com/
 				},
