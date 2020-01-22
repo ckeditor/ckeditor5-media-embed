@@ -324,7 +324,7 @@ describe( 'MediaEmbedEditing', () => {
 							],
 							'<div style="position: relative; padding-bottom: 100%; height: 0;">' +
 								'<iframe src="https://www.facebook.com/plugins/video.php?show_text=false&href=' +
-									'https://www.facebook.com/watch/?v=https://www.facebook.com/watch/?v=1234"' +
+									'https://www.facebook.com/watch/?v=1234"' +
 									'" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0;" ' +
 									'frameborder="0" allow="encrypted-media">' +
 								'</iframe>' +
