@@ -1,6 +1,10 @@
 CKEditor 5 media embed feature
 ========================================
 
+<h3 align=center>⚠⚠ This repository was moved ⚠⚠</h3>
+
+<p align=center>The package was moved to the <a href="https://github.com/ckeditor/ckeditor5/tree/master/packages">main repository</a>.</p>
+
 [![npm version](https://badge.fury.io/js/%40ckeditor%2Fckeditor5-media-embed.svg)](https://www.npmjs.com/package/@ckeditor/ckeditor5-media-embed)
 [![Dependency Status](https://david-dm.org/ckeditor/ckeditor5-media-embed/status.svg)](https://david-dm.org/ckeditor/ckeditor5-media-embed)
 [![devDependency Status](https://david-dm.org/ckeditor/ckeditor5-media-embed/dev-status.svg)](https://david-dm.org/ckeditor/ckeditor5-media-embed?type=dev)
